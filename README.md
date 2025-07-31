@@ -1,1 +1,1 @@
-# kisisel-web-sitem
+Bu proje, kendi portföyümü ve becerilerimi tanıtmak amacıyla geliştirdiğim kişisel web sitesidir. Tamamen HTML, CSS ve JavaScript kullanılarak hazırlanmıştır. Kullanıcı dostu, sade ve duyarlı (responsive) bir tasarıma sahiptir.
