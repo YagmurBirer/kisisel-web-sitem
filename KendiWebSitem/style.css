@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    
+    
+}
+
+/* Navbar */
+.navbar {
+    transition: all 0.3s ease-in-out;
+    background-color:#ead4b1;
+    box-shadow:2px ,wheat ;
+   
+     
+   
+}
+
+/* Profil Fotoğrafı */
+.rounded-circle {
+    border: 2px solid #dee2eb;
+    transition: transform 0.3s ease-in-out;
+}
+.rounded-circle:hover {
+    transform: scale(1.05);
+}
+
+/* Bölüm Başlıkları */
+h2 {
+    border-bottom: 1px solid #c8cce0;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight:lighter;
+    margin-left: 50px;
+    
+}
+
+/* Butonlar */
+.btn {
+    border-radius: 25px;
+    font-weight:inherit;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    color: #333; /* Metin rengi */
+    background-color: #ffffff; /* Arka plan rengi */
+    border: 2px solid #3c3e41;
+}
+.btn:hover {
+    transform: scale(1.05);
+    color: #555;
+ 
+}
+
+
+/* Fade-in Animasyonu */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: #E4D6DA !important;
+    color: #000000cb !important;
+}
+
+
+
+.light-mode .navbar {
+    background-color: #BD99A2 !important;
+}
+
+.light-mode .btn-outline-light {
+    border-color: #e9d48e
+}
+.light-mode .btn-outline-light:hover {
+    background-color: #ec7d9c;
+    
+}
+/* Seviye çubuklarının dar olması için */
+
+.progress {
+    height: 15px;
+    border-radius: 10px;
+
+   
+}
+
+.progress-bar {
+    border-radius: 10px;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+   
+    
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+img.rounded-circle {
+    max-width: 100%;
+    width: 150px;
+}
+#hakkimda .d-flex {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hakkimda img {
+    order: -1; /* Fotoğrafı başa alır */
+    margin-bottom: 20px; /* Fotoğraf ile metin arasına boşluk ekler */
+    box-shadow: 5px,white;
+}
+
+.spark-text {
+    text-align: center;
+    margin: 60px auto 20px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #010101ac; /* morumsu lila tonu */
+    animation: sparkle 2.5s infinite alternate;
+    font-weight: 400;
+  }
+  
+  @keyframes sparkle {
+    0% {
+      text-shadow: 0 0 5px #a28a8a, 0 0 10px #b90589;
+    }
+    100% {
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    }
+  }
+  
